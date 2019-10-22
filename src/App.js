@@ -26,6 +26,7 @@ class App extends Component {
             </div>
           </nav>
           <br/>
+          {/* For each route which needs to be added to the application a new <Route> element is added. */}
           <Route path="/" exact component={TodosList} />
           <Route path="/edit/:id" component={EditTodo} />
           <Route path="/create" component={CreateTodo} />
